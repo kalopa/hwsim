@@ -1,5 +1,5 @@
-hwsim
-=====
+Hardware Simulation
+===================
 
 Simulate the low-level hardware functions - used for testing Mother on VirtualBox.
 
@@ -21,9 +21,10 @@ The whole thing fits on a Compact Flash card, usually either 4GB or 8GB, dependi
 storage.
 The root filesystem takes up around 600MB.
 
-``bash
+```bash
 # uname -a
-FreeBSD wrap-app 8.3-RELEASE FreeBSD 8.3-RELEASE #0: Mon Apr  9 21:47:23 UTC 2012     root@almeida.cse.buffalo.edu:/usr/obj/usr/src/sys/GENERIC  i386``
+FreeBSD wrap-app 8.3-RELEASE FreeBSD 8.3-RELEASE #0: Mon Apr  9 21:47:23 UTC 2012     root@almeida.cse.buffalo.edu:/usr/obj/usr/src/sys/GENERIC  i386
+```
 
 To simulate the boat navigation, a similar image is used,
 running on [VirtualBox](https://www.virtualbox.org/).
